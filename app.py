@@ -60,7 +60,7 @@ def get_chances():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host = "0.0.0.0" , port = 5000)
 
 
 # {"name" : "Hisham" , "pclass" : "3" , "sex" : "0" , "age" : "21" , "sibsp" : "0" , "parch" : "0" , "embark" : "C"    }
